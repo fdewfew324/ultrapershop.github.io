@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daniel’s Pet Shop — Where Every Pet is Family</title>
+  <meta name="description" content="From healthy food to playful toys and comfy accessories, Daniel’s Pet Shop has everything your pets need to thrive.">
+  <link rel="icon" href="favicon.ico">
+  
+  <style>
+    body
+    {
+      margin:auto;
+      font-family:Arial,Helvetica,sans-serif;
+      line-height:1.6;
+      color:#646464;
+      background:#ffffff;
+      width:80%;
+    }
+    img{
+      max-width:100%;
+      height:auto;
+    }
+    nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:6px;
+    }
+    nav a
+    {
+      color:#222;
+      padding:6px 10px;
+      border-radius:6px;
+      margin-right:6px;
+      text-decoration:none;
+    }
+    nav a:hover
+    {
+      background:#000000;
+      color:#ffffff;
+    }
+    .card{
+      margin-bottom:30px;
+      padding-bottom:20px;
+      border-bottom:1px solid #dddddd;
+    }
+    iframe{
+      width:100%;
+      max-width:100%;
+      height:450px;
+      border:0;
+    }
+    input, textarea{
+      width:100%;
+      max-width:500px;
+      padding:8px;
+      margin-bottom:10px;
+      box-sizing:border-box;
+    }
+    button, input[type="submit"]{
+      padding:10px 16px;
+      cursor:pointer;
+    }
+    @media (max-width: 700px)
+    {
+      body { width:92%; }
+    }
+  </style>
+
+</head>
+<body>
+ 
+<header role="banner">
+  <div class="container">
+    <div class="brand">🐾 Daniel’s Pet Shop</div>
+    <nav aria-label="Main navigation">
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a class="btn primary" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+ <section class="hero">
+  <div class="container">
+   <span class="eyebrow">Where every pet is family</span>
+   <h1>Welcome to Daniel’s Pet Shop</h1>
+   <p class="lead">From playful toys to healthy food, comfy accessories, and friendly advice—we’re here to keep tails wagging and purrs going.</p>
+   <a class="btn primary" href="products.html">Shop Products</a>
+   <a class="btn" href="services.html">See Services</a>
+   <a class="btn" href="contact.html">Get Help</a>
+   <figure>
+    <img src="Images/Designer (1).png" alt="A friendly collage of pets—dog, cat, bird, and fish—representing our happy customers." width="640" height="480">
+    <figcaption class="muted">Our friends ❤️</figcaption>
+   </figure>
+  </div>
+ </section>
+ <main class="container" aria-labelledby="products">
+  <header>
+   <h2 id="products">Shop by Category</h2>
+   <p class="muted">Everything your furry, feathery, or scaly friends need to thrive.</p>
+  </header>
+  <ul class="cards" role="list">
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🐶</div><h3>Dog Food</h3><p>Nutrient-rich kibble, wet food, and treats for every life stage.</p></li>
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🐱</div><h3>Cat Food</h3><p>Balanced recipes for kittens to seniors—grain-free options too.</p></li>
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🐦</div><h3>Bird Seed</h3><p>Premium blends to keep your birds chirpy and healthy.</p></li>
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🐠</div><h3>Fish Flakes</h3><p>Clean, complete nutrition for freshwater and marine fish.</p></li>
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🐹</div><h3>Small Animal Pellets</h3><p>Specialized diets for hamsters, guinea pigs, and rabbits.</p></li>
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🎾</div><h3>Pet Toys</h3><p>Durable, safe, and fun—keep playtime exciting.</p></li>
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🦴</div><h3>Leashes & Collars</h3><p>Comfortable, secure gear for stylish walks.</p></li>
+   <li class="card" role="listitem"><div class="emoji" aria-hidden="true">🛏️</div><h3>Pet Beds</h3><p>Cozy beds for dreamy naps and all-night snoozes.</p></li>
+  </ul>
+ </main>
+ <section class="container" aria-labelledby="services">
+  <h2 id="services">Services</h2>
+  <ul>
+   <li>Expert product recommendations tailored to your pet.</li>
+   <li>Special orders for hard-to-find items.</li>
+   <li>Loyalty rewards and seasonal promotions.</li>
+   <li>Local delivery / curbside pickup (where available).</li>
+  </ul>
+  <a class="btn" href="about.html">Learn More</a>
+  <a class="btn primary" href="contact.html">Contact Us</a>
+ </section>
+ 
+<footer role="contentinfo">
+  <div class="container">
+    <div class="brand" aria-label="Store name">🐾 <strong>Daniel’s Pet Shop</strong></div>
+    <p class="legal">© 2026 Daniel’s Pet Shop. All rights reserved.</p>
+    <aside class="hours" aria-labelledby="opening-hours">
+      <h2 id="opening-hours" style="margin-top:0">Opening Hours</h2>
+      <dl>
+        <dt>Mon–Sat</dt>
+        <dd><time datetime="08:00">8:00 AM</time> – <time datetime="22:00">10:00 PM</time></dd>
+        <dt>Sun</dt>
+        <dd>Closed</dd>
+      </dl>
+      <h2>Contact Details</h2>
+      <p><strong>Address:</strong> 15 Pet Lane, Liverpool, L1 2AB</p>
+      <p><strong>Telephone:</strong> 0151 555 1234</p>
+      <p><strong>Email:</strong> info@danielspetshop.co.uk</p>
+    </aside>
+  </div>
+</footer>
+
+</body>
+</html>
